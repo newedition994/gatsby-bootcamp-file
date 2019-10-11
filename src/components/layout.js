@@ -1,5 +1,7 @@
 import React from "react"
 
+import "../styles/index.css"
+
 import Header from "./header"
 import Footer from "./footer"
 
