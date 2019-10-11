@@ -4,7 +4,13 @@ const ContactPage = () => {
   return (
     <div>
       <h1>Contact Me</h1>
-      <p>Different ways to contact me.</p>
+      <p>
+        Please view my{" "}
+        <a href="https://www.linkedin.com/in/breyanna-vass-6bb97773/">
+          LinkedIn
+        </a>{" "}
+        profile for more about my experiences.
+      </p>
     </div>
   )
 }
