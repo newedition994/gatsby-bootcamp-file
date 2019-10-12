@@ -20,16 +20,14 @@ const BlogPage = () => {
     }
   `)
 
-  console.log(data)
-
   return (
     <div>
       <Layout>
         <h1>Blog Page</h1>
         <ol>
-          {data.allMarkdownRemark.edges.map(edge => {
+          {data.allMarkdownRemark.edges.map((edge, index) => {
             return (
-              <li>
+              <li key={index}>
                 <h2>{edge.node.frontmatter.title}</h2>
                 <p>{edge.node.frontmatter.date}</p>
               </li>

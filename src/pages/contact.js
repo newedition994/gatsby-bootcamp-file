@@ -11,6 +11,7 @@ const ContactPage = () => {
           Please view my{" "}
           <a
             href="https://www.linkedin.com/in/breyanna-vass-6bb97773/"
+            rel="noopener noreferrer"
             target="_blank"
           >
             LinkedIn
