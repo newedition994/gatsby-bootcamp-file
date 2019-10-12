@@ -10,5 +10,14 @@ module.exports = {
     title: "Breyanna the Dev",
     author: "Breyanna Vass",
   },
-  plugins: ["gatsby-plugin-sass"],
+  plugins: [
+    "gatsby-plugin-sass",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "src",
+        path: `${__dirname}/src/`,
+      },
+    },
+  ],
 }
